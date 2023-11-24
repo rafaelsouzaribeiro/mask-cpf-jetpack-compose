@@ -1,6 +1,6 @@
 # mask-cpf-jetpack-compose
 How to use:
-
+```
 val visualTransformationCpf: VisualTransformation = remember { MaskCpf() }
 
 TextField(
@@ -11,3 +11,4 @@ TextField(
     leadingIcon = { Icon(imageVector = leadingIconVector, contentDescription = null) },
     visualTransformation = visualTransformationCpf
 )
+```
